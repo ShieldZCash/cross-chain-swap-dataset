@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Cross-Chain Swap Apps Dataset"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-10
+license: CC-BY-4.0
+url: "https://github.com/ShieldZCash/cross-chain-swap-dataset"
+repository-code: "https://github.com/ShieldZCash/cross-chain-swap-dataset"
+abstract: "An open, hand-verified dataset of 81 cross-chain swap apps (wallets, aggregators, front-ends and instant exchanges) classified by custody during the swap, KYC, the app's own fee, routing and native Bitcoin and Solana support, with the 32 protocols they route through listed separately. Headline finding: 58% publish no fee that can be checked on a current official page."
+keywords:
+  - "cross-chain swap"
+  - "crypto swap"
+  - "dex aggregator"
+  - "bridge"
+  - "custody"
+  - "fees"
+  - "dataset"
+authors:
+  - name: "Shieldz"
+    website: "https://shieldz.cash"
+  - family-names: "Yanbollu"
+    given-names: "Deniz"

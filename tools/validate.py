@@ -19,8 +19,7 @@ SCHEMA = {
     "source_url": (str, True), "checked": (str, True),
 }
 ENUMS = {
-    "category": {"native-dex", "intent-network", "bridge", "aggregator", "frontend", "wallet",
-                 "instant-exchange", "exchange-aggregator"},
+    "category": {"aggregator", "frontend", "wallet", "instant-exchange", "exchange-aggregator"},
     "custody": {"custodial", "non-custodial", "hybrid"},
     "kyc": {"none", "risk-based", "required"},
     "status": {"active", "inactive", "unchecked"},
@@ -31,8 +30,16 @@ def is_url(u):
     return p.scheme in ("http", "https") and bool(p.netloc)
 
 seen = set()
-for i, a in enumerate(d["apps"]):
-    who = f"apps[{i}] ({a.get('name', '?')})"
+PROTOCOL_CATEGORIES = {"native-dex", "intent-network", "bridge"}
+APP_CATEGORIES = ENUMS["category"]
+ENUMS["category"] = APP_CATEGORIES | PROTOCOL_CATEGORIES
+rows = [("apps", i, a) for i, a in enumerate(d["apps"])] + [("protocols", i, a) for i, a in enumerate(d.get("protocols", []))]
+for table, i, a in rows:
+    who = f"{table}[{i}] ({a.get('name', '?')})"
+    if table == "apps" and a.get("category") not in APP_CATEGORIES:
+        errors.append(f"{who}: a protocol category belongs in `protocols`, not `apps`")
+    if table == "protocols" and a.get("category") not in PROTOCOL_CATEGORIES:
+        errors.append(f"{who}: protocols use native-dex, intent-network or bridge")
     for k, (t, nullable) in SCHEMA.items():
         if k not in a:
             errors.append(f"{who}: missing field '{k}'")
@@ -75,4 +82,4 @@ if d.get("counts", {}).get("total") != len(d["apps"]):
 if errors:
     print("\n".join(errors))
     sys.exit(1)
-print(f"OK: {len(d['apps'])} rows valid")
+print(f"OK: {len(d['apps'])} apps and {len(d.get('protocols', []))} protocols valid")

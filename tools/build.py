@@ -16,6 +16,7 @@ root = Path(__file__).resolve().parent.parent
 json_path = root / "data" / "cross-chain-swaps.json"
 d = json.loads(json_path.read_text())
 apps = d["apps"]
+protocols = d.get("protocols", [])
 
 FIELDS = ["name", "url", "category", "custody", "kyc", "fee_pct", "fee_note", "routes_via",
           "native_btc", "solana", "chains", "founded", "status", "status_note", "notable",
@@ -34,6 +35,7 @@ d["counts"] = {
     "inactive": sum(1 for a in apps if a["status"] == "inactive"),
     "unchecked": sum(1 for a in apps if a["status"] == "unchecked"),
     "verified": len(verified),
+    "protocols": len(protocols),
 }
 d["summary"] = {
     "n_active": n,
@@ -46,8 +48,12 @@ d["summary"] = {
     "kyc": dict(sorted(Counter(a["kyc"] for a in active).items())),
     # Only figures confirmed on an official page count towards fee statistics.
     "n_fee_verified": len(fees),
+    "pct_fee_verified": pct(len(fees)),
     "median_fee_pct": round(statistics.median(fees), 3) if fees else None,
+    "mean_fee_pct": round(statistics.mean(fees), 3) if fees else None,
     "zero_fee": sum(1 for f in fees if f == 0),
+    "fee_1pct_or_more": sum(1 for f in fees if f >= 1),
+    "fee_verified_by_category": dict(sorted(Counter(a["category"] for a in verified).items())),
     "native_btc": sum(1 for a in active if a["native_btc"] is True),
 }
 json_path.write_text(json.dumps(d, indent=2, ensure_ascii=False) + "\n")
@@ -57,6 +63,11 @@ with (root / "data" / "cross-chain-swaps.csv").open("w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=FIELDS)
     w.writeheader()
     for a in sorted(apps, key=lambda a: a["name"].lower()):
+        w.writerow({k: cell(a[k]) for k in FIELDS})
+with (root / "data" / "cross-chain-protocols.csv").open("w", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=FIELDS)
+    w.writeheader()
+    for a in sorted(protocols, key=lambda a: a["name"].lower()):
         w.writerow({k: cell(a[k]) for k in FIELDS})
 
 CATEGORY_ORDER = ["native-dex", "intent-network", "bridge", "aggregator", "frontend", "wallet",
@@ -90,9 +101,19 @@ for cat in CATEGORY_ORDER:
             f"| {yn(a['solana'])} | {a['chains'] or '?'} | {a['routes_via']} | {a['notable']} |")
     lines.append("")
 gone = sorted((a for a in apps if a["status"] != "active"), key=lambda a: a["name"].lower())
+live_protocols = sorted((a for a in protocols if a["status"] == "active"), key=lambda a: a["name"].lower())
+if live_protocols:
+    lines += ["## Reference: the protocols underneath", "",
+              "Not part of the comparison. Most apps above route through these; listed so `Routes via` can be read.", "",
+              "| Protocol | Category | Fee | Fee detail | Native BTC | Solana |", "| --- | --- | --- | --- | --- | --- |"]
+    lines += [f"| [{a['name']}]({a['url']}) | {a['category']} | {fee(a)} | {a['fee_note'] or '?'} | {yn(a['native_btc'])} | {yn(a['solana'])} |"
+              for a in live_protocols]
+    lines.append("")
 if gone:
     lines += ["## Inactive or unconfirmed", "", "| App | Status | What we found |", "| --- | --- | --- |"]
     lines += [f"| {a['name']} | {a['status']} | {a['status_note']} |" for a in gone]
+    lines += [f"| {a['name']} (protocol) | {a['status']} | {a['status_note']} |"
+              for a in sorted(protocols, key=lambda a: a["name"].lower()) if a["status"] != "active"]
     lines.append("")
 (root / "DATA.md").write_text("\n".join(lines))
-print(f"built: {len(apps)} rows ({n} active, {len(verified)} verified) -> JSON summary, CSV, DATA.md")
+print(f"built: {len(apps)} apps ({n} active, {len(verified)} fee-verified), {len(protocols)} protocols -> JSON summary, CSVs, DATA.md")
