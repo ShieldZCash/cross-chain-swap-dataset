@@ -18,7 +18,7 @@ d = json.loads(json_path.read_text())
 apps = d["apps"]
 protocols = d.get("protocols", [])
 
-FIELDS = ["name", "url", "category", "custody", "kyc", "fee_pct", "fee_note", "routes_via",
+FIELDS = ["name", "url", "category", "custody", "kyc", "fee_type", "fee_pct", "fee_note", "routes_via",
           "native_btc", "solana", "chains", "founded", "status", "status_note", "notable",
           "verified", "source_url", "checked"]
 
@@ -51,7 +51,9 @@ d["summary"] = {
     "pct_fee_verified": pct(len(fees)),
     "median_fee_pct": round(statistics.median(fees), 3) if fees else None,
     "mean_fee_pct": round(statistics.mean(fees), 3) if fees else None,
-    "zero_fee": sum(1 for f in fees if f == 0),
+    "fee_route_only": sum(1 for a in active if a["fee_type"] == "route-only"),
+    "fee_unpublished": sum(1 for a in active if a["fee_type"] == "unpublished"),
+    "fee_stated_unverified": sum(1 for a in active if a["fee_type"] == "stated" and not a["verified"]),
     "fee_1pct_or_more": sum(1 for f in fees if f >= 1),
     "fee_verified_by_category": dict(sorted(Counter(a["category"] for a in verified).items())),
     "native_btc": sum(1 for a in active if a["native_btc"] is True),
@@ -73,7 +75,8 @@ with (root / "data" / "cross-chain-protocols.csv").open("w", newline="") as f:
 CATEGORY_ORDER = ["native-dex", "intent-network", "bridge", "aggregator", "frontend", "wallet",
                   "instant-exchange", "exchange-aggregator"]
 yn = lambda v: "?" if v is None else ("yes" if v else "no")
-fee = lambda a: "?" if a["fee_pct"] is None else f"{a['fee_pct']}%" + ("" if a["verified"] else "\\*")
+fee = lambda a: ("not certain" if a["fee_type"] == "route-only" else "?" if a["fee_pct"] is None
+                 else f"{a['fee_pct']}%" + ("" if a["verified"] else "\\*"))
 s = d["summary"]
 lines = [
     f"# {d['dataset']}: full table",
@@ -85,7 +88,7 @@ lines = [
     f"Of the active apps, **{s['pct_non_custodial']}% are non-custodial**, {s['pct_custodial']}% custodial "
     f"and {s['hybrid']} hybrid. Verified so far (fee and coverage confirmed on an official page): "
     f"{d['counts']['verified']} of {len(apps)}. "
-    "`?` means not yet checked and an asterisk marks an unverified figure.",
+    "`?` means no rate was found, `not certain` means the app claims no fee of its own so the cost is set by the route, and an asterisk marks an unverified figure.",
     "",
 ]
 for cat in CATEGORY_ORDER:

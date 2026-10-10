@@ -12,7 +12,7 @@ errors = []
 # field -> (allowed types, nullable)
 SCHEMA = {
     "name": (str, False), "url": (str, False), "category": (str, False), "custody": (str, False),
-    "kyc": (str, False), "fee_pct": ((int, float), True), "fee_note": (str, False),
+    "kyc": (str, False), "fee_type": (str, False), "fee_pct": ((int, float), True), "fee_note": (str, False),
     "routes_via": (str, False), "native_btc": (bool, True), "solana": (bool, True),
     "chains": (int, True), "founded": (int, True), "status": (str, False),
     "status_note": (str, False), "notable": (str, False), "verified": (bool, False),
@@ -23,6 +23,7 @@ ENUMS = {
     "custody": {"custodial", "non-custodial", "hybrid"},
     "kyc": {"none", "risk-based", "required"},
     "status": {"active", "inactive", "unchecked"},
+    "fee_type": {"stated", "route-only", "unpublished"},
 }
 
 def is_url(u):
@@ -63,6 +64,12 @@ for table, i, a in rows:
             errors.append(f"{who}: {k} is not a valid http(s) URL")
     if a.get("verified") and not a.get("source_url"):
         errors.append(f"{who}: a verified row needs a source_url")
+    if a.get("fee_type") != "stated" and a.get("fee_pct") is not None:
+        errors.append(f"{who}: only a stated fee may carry fee_pct")
+    if a.get("fee_type") == "stated" and a.get("fee_pct") is None:
+        errors.append(f"{who}: a stated fee needs fee_pct")
+    if a.get("verified") and a.get("fee_type") != "stated":
+        errors.append(f"{who}: only a stated fee can be verified")
     if a.get("verified") and a.get("fee_pct") is None:
         errors.append(f"{who}: a verified row needs a fee_pct")
     if a.get("status") != "active" and not a.get("status_note"):

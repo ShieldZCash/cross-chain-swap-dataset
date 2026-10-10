@@ -1,8 +1,8 @@
 # Cross-Chain Swaps 2026: full table
 
-81 active apps (7 inactive, 0 unchecked), v1.0.0, updated 2026-10-10. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash).
+81 active apps (7 inactive, 0 unchecked), v1.0.1, updated 2026-10-10. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash).
 
-Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Verified so far (fee and coverage confirmed on an official page): 34 of 88. `?` means not yet checked and an asterisk marks an unverified figure.
+Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Verified so far (fee and coverage confirmed on an official page): 24 of 88. `?` means no rate was found, `not certain` means the app claims no fee of its own so the cost is set by the route, and an asterisk marks an unverified figure.
 
 ## aggregator (21)
 
@@ -16,16 +16,16 @@ Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Veri
 | [LeoDex](https://leodex.io) | non-custodial | none | 0.45% | yes | yes | 60 | THORChain, Chainflip, Maya, NEAR Intents, Relay, deBridge, 1inch, Rango, Harbor and more (19 protocols) | Compares every route across 19 protocols; shielded ZEC and confidential NEAR Intents swaps |
 | [Matcha](https://matcha.xyz) | non-custodial | none | 0.4% | no | yes | 13 | 0x and bridge partners | 0x's swap app with cross-chain swaps |
 | [OpenOcean](https://openocean.finance) | non-custodial | none | ? | yes | yes | 40 | DEX aggregation plus bridges | Same-chain and cross-chain aggregator |
-| [PancakeSwap](https://pancakeswap.finance) | non-custodial | none | 0% | no | yes | 7 | PancakeSwap pools plus Across (EVM) and Relay (Solana) | BNB Chain DEX with cross-chain swaps |
-| [Rango Exchange](https://rango.exchange) | hybrid | none | 0% | yes | yes | 80 | Bridges, DEXes, THORChain, Maya, some instant exchanges | Widest chain coverage among aggregators |
+| [PancakeSwap](https://pancakeswap.finance) | non-custodial | none | not certain | no | yes | 7 | PancakeSwap pools plus Across (EVM) and Relay (Solana) | BNB Chain DEX with cross-chain swaps |
+| [Rango Exchange](https://rango.exchange) | hybrid | none | not certain | yes | yes | 80 | Bridges, DEXes, THORChain, Maya, some instant exchanges | Widest chain coverage among aggregators |
 | [RocketX](https://www.rocketx.exchange) | hybrid | risk-based | 0.2% | yes | yes | 200 | DEXes, bridges and CEX liquidity | Hybrid CEX/DEX aggregator |
 | [Rubic](https://rubic.exchange) | hybrid | none | ? | yes | yes | 100 | Bridges, DEXes and custodial exchange partners | Aggregator incl. instant-exchange routes |
 | [Shieldz Swap](https://swap.shieldz.cash) | non-custodial | none | 0.15% | yes | yes | 45 | NEAR Intents, Chainflip, Relay (raced per quote) | Races NEAR Intents, Chainflip and Relay per quote, shows every route and lets you pick; fee on every quote |
 | [Skip:Go](https://go.skip.build) | non-custodial | none | ? | no | ? | ? | IBC, CCTP, Axelar, Hyperlane | Cosmos-centred cross-chain routing |
 | [Squid Router](https://www.squidrouter.com) | non-custodial | none | ? | yes | yes | 100 | Axelar, CCTP, Chainflip and others | Cosmos and EVM cross-chain swaps |
-| [Superbridge](https://superbridge.app) | non-custodial | none | 0% | no | ? | ? | Native rollup bridges plus fast-bridge partners | Bridge app for OP Stack and other rollups |
+| [Superbridge](https://superbridge.app) | non-custodial | none | not certain | no | ? | ? | Native rollup bridges plus fast-bridge partners | Bridge app for OP Stack and other rollups |
 | [SushiSwap](https://www.sushi.com) | non-custodial | none | 0.35% | no | ? | ? | Sushi pools plus bridges (SushiXSwap) | DEX with cross-chain swaps |
-| [Uniswap](https://app.uniswap.org) | non-custodial | none | 0% | no | no | 11 | Across (cross-chain), Uniswap pools | Cross-chain swaps between EVM chains in the Uniswap app |
+| [Uniswap](https://app.uniswap.org) | non-custodial | none | not certain | no | no | 11 | Across (cross-chain), Uniswap pools | Cross-chain swaps between EVM chains in the Uniswap app |
 | [UniversalX](https://universalx.app) | non-custodial | none | ? | no | yes | 16 | Particle Network universal accounts | Chain-abstracted trading from one balance |
 | [Velora](https://www.velora.xyz) | non-custodial | none | ? | no | no | 8 | Velora Delta intents and bridges | Formerly ParaSwap; crosschain swaps |
 | [XY Finance](https://xy.finance) | non-custodial | none | 0.035%\* | no | no | 20 | Own liquidity (XY) and third-party bridges | Cross-chain swap aggregator |
@@ -45,17 +45,17 @@ Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Veri
 
 | App | Custody | KYC | Fee | Native BTC | Solana | Chains | Routes via | Notable |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Atomic Wallet](https://atomicwallet.io) | custodial | risk-based | ? | yes | yes | ? | ChangeNOW | Desktop and mobile wallet with exchange partners |
-| [Backpack](https://backpack.app) | non-custodial | none | 0% | no | yes | 14 | Wormhole and aggregated bridge routes | Solana-first wallet from the Backpack exchange team |
+| [Atomic Wallet](https://atomicwallet.io) | custodial | risk-based | not certain | yes | yes | ? | ChangeNOW | Desktop and mobile wallet with exchange partners |
+| [Backpack](https://backpack.app) | non-custodial | none | not certain | no | yes | 14 | Wormhole and aggregated bridge routes | Solana-first wallet from the Backpack exchange team |
 | [Base App](https://base.app) | non-custodial | none | 1.0% | no | yes | 8 | DEX aggregators and Socket (Bungee) for bridging | Coinbase self-custody wallet, formerly Coinbase Wallet |
 | [Binance Wallet](https://www.binance.com/en/web3wallet) | non-custodial | none | ? | ? | ? | ? | Binance Bridge and third-party bridge providers | Binance self-custody (MPC) wallet inside the Binance app |
 | [BitBox](https://bitbox.swiss) | non-custodial | none | 1.5% | yes | ? | ? | SwapKit (NEAR Intents) | Swiss hardware wallet; swaps confirmed on the device (BitBoxApp 05.2026) |
 | [Bitcoin.com Wallet](https://wallet.bitcoin.com) | hybrid | risk-based | 2.0% | yes | ? | ? | Verse DEX, SideShift, ChangeNOW, FixedFloat and others (14 providers) | Self-custody wallet from Bitcoin.com |
 | [Bitget Wallet](https://web3.bitget.com) | non-custodial | none | ? | ? | yes | ? | Bridges and aggregators | Formerly BitKeep; cross-chain swaps |
-| [Brave Wallet](https://brave.com/wallet/) | non-custodial | none | 0%\* | yes | yes | ? | LI.FI, NEAR Intents (since v1.88) | Browser-native wallet; NEAR Intents adds BTC, ZEC, Cardano |
+| [Brave Wallet](https://brave.com/wallet/) | non-custodial | none | not certain | yes | yes | ? | LI.FI, NEAR Intents (since v1.88) | Browser-native wallet; NEAR Intents adds BTC, ZEC, Cardano |
 | [Cake Wallet](https://cakewallet.com) | hybrid | risk-based | ? | yes | ? | ? | ChangeNOW, Exolix, Trocador, SideShift, SwapTrade, LetsExchange, SimpleSwap, StealthEX, XOSwap; Chainflip, NEAR Intents, Jupiter, Swaps.xyz | Monero and Bitcoin wallet; Tor-only swaps; shielded ZEC via NEAR Intents |
 | [Coin98](https://coin98.com) | non-custodial | none | 0.1% | ? | yes | ? | SpaceGate (own bridge) for listed tokens | Super Wallet with a token-limited cross-chain bridge |
-| [Coinomi](https://www.coinomi.com) | custodial | risk-based | ? | yes | ? | ? | Changelly, n.exchange | Long-running multi-coin wallet with built-in exchange partners |
+| [Coinomi](https://www.coinomi.com) | custodial | risk-based | not certain | yes | ? | ? | Changelly, n.exchange | Long-running multi-coin wallet with built-in exchange partners |
 | [Edge Wallet](https://edge.app) | non-custodial | none | ? | yes | ? | ? | THORChain, Maya, Rango, LI.FI, SwapKit, 0x | Long-running self-custody wallet with THORChain streaming swaps |
 | [Exodus](https://www.exodus.com) | hybrid | none | 0.5%\* | yes | yes | ? | Third-party exchange providers and XO Swap (DEXes, bridges, market makers) | Desktop and mobile wallet with in-app exchange |
 | [Gem Wallet](https://gemwallet.com) | non-custodial | none | ? | yes | yes | ? | 20+ providers incl. THORChain, Chainflip, Relay, Mayan, Uniswap, Jupiter, OKX DEX | Open-source wallet aggregating native cross-chain swaps |
@@ -76,7 +76,7 @@ Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Veri
 | [TokenPocket](https://www.tokenpocket.pro) | non-custodial | none | ? | ? | yes | ? | Transit Swap aggregator | Multi-chain wallet with the Transit Swap cross-chain aggregator |
 | [Trezor Suite](https://trezor.io/trezor-suite) | hybrid | risk-based | ? | yes | yes | ? | ChangeHero, Changelly, ChangeNOW, Godex, SideShift.ai (custodial) and 1inch, LI.FI | Hardware-wallet trade through partners |
 | [Trust Wallet](https://trustwallet.com) | non-custodial | none | 0.7%\* | ? | yes | ? | THORChain, 1inch, Mimic, Axelar (and Harbor per its explorer) | Binance-backed multi-chain wallet |
-| [Unstoppable Wallet](https://unstoppable.money) | non-custodial | none | 0% | yes | ? | ? | THORChain, NEAR Intents, 1inch | Open-source privacy wallet with THORChain swaps |
+| [Unstoppable Wallet](https://unstoppable.money) | non-custodial | none | not certain | yes | ? | ? | THORChain, NEAR Intents, 1inch | Open-source privacy wallet with THORChain swaps |
 | [Xverse](https://www.xverse.app) | custodial | risk-based | ? | yes | yes | ? | Changelly (EVM and Solana to BTC) | Bitcoin-first wallet; cross-chain swaps into BTC run through Changelly |
 | [Zengo](https://zengo.com) | hybrid | risk-based | ? | yes | ? | ? | Changelly, THORChain, Swaps.xyz | Keyless MPC wallet |
 | [Zerion](https://zerion.io) | non-custodial | none | 0.67% | ? | yes | ? | LI.FI | Portfolio wallet with cross-chain swaps |
@@ -90,10 +90,10 @@ Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Veri
 | [ChangeHero](https://changehero.io) | custodial | risk-based | 0.5% | yes | yes | ? | Exchange partners | No-account instant exchange |
 | [Changelly](https://changelly.com) | custodial | risk-based | 0.25% | yes | yes | ? | Exchange partners | Long-running instant exchange |
 | [ChangeNOW](https://changenow.io) | custodial | risk-based | ? | yes | yes | ? | Own liquidity and exchange partners | No-account instant exchange, 1,000+ coins |
-| [Exolix](https://exolix.com) | custodial | risk-based | ? | yes | yes | ? | Exchange partners | No-account instant exchange |
+| [Exolix](https://exolix.com) | custodial | risk-based | not certain | yes | yes | ? | Exchange partners | No-account instant exchange |
 | [FixedFloat](https://ff.io) | custodial | risk-based | 0.5% | yes | yes | ? | Own liquidity | Fixed and floating-rate exchange |
 | [Godex](https://godex.io) | custodial | risk-based | ? | yes | yes | ? | Exchange partners | Fixed-rate instant exchange |
-| [Houdini Swap](https://houdiniswap.com) | custodial | risk-based | ? | yes | yes | ? | Two-hop exchange routing for privacy | Privacy-focused swaps routed through two exchanges |
+| [Houdini Swap](https://houdiniswap.com) | custodial | risk-based | not certain | yes | yes | ? | Two-hop exchange routing for privacy | Privacy-focused swaps routed through two exchanges |
 | [LetsExchange](https://letsexchange.io) | custodial | risk-based | ? | yes | yes | ? | Exchange partners | No-account instant exchange |
 | [Quickex](https://quickex.io) | custodial | risk-based | 0.5% | yes | ? | ? | Exchange partners | Instant exchange |
 | [SideShift.ai](https://sideshift.ai) | custodial | risk-based | ? | yes | yes | ? | Own liquidity | No-account shifts; geoblocks some countries |
@@ -105,10 +105,10 @@ Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Veri
 
 | App | Custody | KYC | Fee | Native BTC | Solana | Chains | Routes via | Notable |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [CypherGoat](https://cyphergoat.com) | hybrid | risk-based | 0% | yes | ? | ? | 20+ instant exchanges plus THORChain | Open-source privacy aggregator; runs without JavaScript |
-| [SwapSpace](https://swapspace.co) | custodial | risk-based | 0% | yes | yes | ? | Compares instant exchanges | Instant-exchange aggregator |
-| [Swapzone](https://swapzone.io) | custodial | risk-based | 0% | yes | yes | ? | Compares instant exchanges | Instant-exchange aggregator |
-| [Trocador](https://trocador.app) | custodial | risk-based | 0% | yes | yes | ? | Compares instant exchanges, rates KYC risk | Privacy-focused instant-exchange aggregator |
+| [CypherGoat](https://cyphergoat.com) | hybrid | risk-based | not certain | yes | ? | ? | 20+ instant exchanges plus THORChain | Open-source privacy aggregator; runs without JavaScript |
+| [SwapSpace](https://swapspace.co) | custodial | risk-based | not certain | yes | yes | ? | Compares instant exchanges | Instant-exchange aggregator |
+| [Swapzone](https://swapzone.io) | custodial | risk-based | not certain | yes | yes | ? | Compares instant exchanges | Instant-exchange aggregator |
+| [Trocador](https://trocador.app) | custodial | risk-based | not certain | yes | yes | ? | Compares instant exchanges, rates KYC risk | Privacy-focused instant-exchange aggregator |
 
 ## Reference: the protocols underneath
 
