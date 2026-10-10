@@ -1,0 +1,16 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate dataset
+        run: python3 tools/validate.py
+      - name: Check generated files are in sync
+        run: |
+          python3 tools/build.py
+          git diff --exit-code || { echo "::error::Generated files out of sync — run tools/build.py and commit the result"; exit 1; }

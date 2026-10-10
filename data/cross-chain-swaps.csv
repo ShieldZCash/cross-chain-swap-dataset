@@ -1,0 +1,94 @@
+name,url,category,custody,kyc,fee_pct,fee_note,routes_via,native_btc,solana,chains,founded,status,status_note,notable,verified,source_url,checked
+1inch Fusion+,https://1inch.com,intent-network,non-custodial,none,,,"Resolver Dutch auctions, atomic escrows",,,,2024,active,,1inch's cross-chain swaps via resolvers,false,,2026-10-10
+Across Protocol,https://across.to,intent-network,non-custodial,none,,,"Relayers, settlement via UMA optimistic oracle",false,true,,2021,active,,Fast intent-based bridging; powers Uniswap's cross-chain swaps,false,,2026-10-10
+Alfacash,https://www.alfa.cash,instant-exchange,custodial,risk-based,,,Own liquidity,true,,,,active,,Long-running instant exchange,false,,2026-10-10
+Allbridge,https://allbridge.io,bridge,non-custodial,none,,,Allbridge Core stable pools,false,true,,2021,active,,"Stablecoin swaps incl. Solana, Tron, Stellar, Sui",false,,2026-10-10
+ASGARDEX,https://www.asgardex.com,frontend,non-custodial,none,,,THORChain and Maya,true,,,2021,active,,Open-source desktop wallet for THORChain,false,,2026-10-10
+Atomic Wallet,https://atomicwallet.io,wallet,custodial,risk-based,,,Instant-exchange partners,true,true,,2017,active,,Desktop and mobile wallet with exchange partners,false,,2026-10-10
+Bitget Wallet,https://web3.bitget.com,wallet,non-custodial,none,,,Bridges and aggregators,,true,,2018,active,,Formerly BitKeep; cross-chain swaps,false,,2026-10-10
+Bridgers,https://bridgers.xyz,bridge,non-custodial,none,,,Own liquidity,,,,,active,,Cross-chain swap bridge,false,,2026-10-10
+Bungee,https://www.bungee.exchange,aggregator,non-custodial,none,,,Socket: bridges and auction-based routes,,,,2022,active,,Aggregator by Socket; auction mode,false,,2026-10-10
+CacaoSwap,https://cacaoswap.app,frontend,non-custodial,none,,,Maya Protocol,true,,,2023,active,,Maya Protocol front-end,false,,2026-10-10
+cBridge (Celer),https://cbridge.celer.network,bridge,non-custodial,none,,,"Celer State Guardian Network, liquidity pools",false,,,2021,active,,Long-running multi-chain bridge,false,,2026-10-10
+Chainflip,https://chainflip.io,native-dex,non-custodial,none,,,"Own validator network, JIT AMM",true,true,,2023,active,,"Native BTC, ETH, SOL, DOT swaps; boost for faster BTC deposits",false,,2026-10-10
+Chainge Finance,https://chainge.finance,bridge,non-custodial,none,,,Own fusion chain and DCRM,,,,2021,inactive,chainge.finance returns 404 Not Found,Cross-chain DEX with own settlement layer,false,,2026-10-10
+Changee,https://changee.com,instant-exchange,custodial,risk-based,,,Exchange partners,true,,,,active,,Instant exchange,false,,2026-10-10
+ChangeHero,https://changehero.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,2018,active,,No-account instant exchange,false,,2026-10-10
+Changelly,https://changelly.com,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,2015,active,,Long-running instant exchange,false,,2026-10-10
+ChangeNOW,https://changenow.io,instant-exchange,custodial,risk-based,,,Own liquidity and exchange partners,true,true,,2017,active,,"No-account instant exchange, 1,000+ coins",false,,2026-10-10
+CoW Swap,https://swap.cow.fi,aggregator,non-custodial,none,,,CoW Protocol batch auctions plus bridge partners,false,,,2021,active,,Intent-based DEX; cross-chain swaps via bridge partners,false,,2026-10-10
+Ctrl Wallet,https://ctrl.xyz,frontend,non-custodial,none,,,THORChain and aggregators,true,true,,2021,active,,Formerly XDEFI; multi-chain wallet with swaps,false,,2026-10-10
+deBridge,https://debridge.com,intent-network,non-custodial,none,,,DLN market makers (zero-TVL order flow),false,true,,2021,active,,"Cross-chain limit orders and swaps, EVM and Solana",false,,2026-10-10
+Defispot,https://www.defispot.com,frontend,non-custodial,none,,,"THORChain, Maya, Chainflip",true,,,,inactive,defispot.com does not resolve; app.defispot.com returns 404,Cross-chain trading interface,false,,2026-10-10
+dZap,https://dzap.io,aggregator,non-custodial,none,,,Bridges and DEXes,,,,,active,,Batch and cross-chain swap aggregator,false,,2026-10-10
+El Dorito,https://www.eldorito.club,frontend,non-custodial,none,,,"THORChain, Maya, Chainflip",true,,,2024,inactive,eldorito.club returns Framer 'Site Not Found',Community front-end for native swaps,false,,2026-10-10
+Everclear,https://everclear.org,intent-network,non-custodial,none,,,Clearing layer for intents (formerly Connext),false,,,,inactive,everclear.org fails the TLS handshake; infrastructure rather than a consumer app,Netting layer behind other bridges,false,,2026-10-10
+Exch,https://exch.cx,instant-exchange,custodial,none,,,Own liquidity,true,,,,inactive,exch.cx times out; the service announced its shutdown in 2025,Privacy exchange; announced shutdown in 2025,false,,2026-10-10
+Exodus,https://www.exodus.com,wallet,hybrid,none,,,Exchange partners and DEX routes,true,true,,2015,active,,Desktop and mobile wallet with in-app exchange,false,,2026-10-10
+Exolix,https://exolix.com,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,,active,,No-account instant exchange,false,,2026-10-10
+FixedFloat,https://ff.io,instant-exchange,custodial,risk-based,,,Own liquidity,true,true,,2018,active,,Fixed and floating-rate exchange,false,,2026-10-10
+Garden Finance,https://garden.finance,native-dex,non-custodial,none,,,Atomic swaps with solvers,true,,,2023,active,,Bitcoin-first atomic-swap bridge to EVM chains,false,,2026-10-10
+Gas.zip,https://www.gas.zip,bridge,non-custodial,none,,,Own inventory,false,true,,,active,,Native gas refuel across 300+ chains,false,,2026-10-10
+Godex,https://godex.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,2018,active,,Fixed-rate instant exchange,false,,2026-10-10
+Guarda,https://guarda.com,wallet,custodial,risk-based,,,Instant-exchange partners,true,true,,2017,active,,Multi-chain wallet with exchange partners,false,,2026-10-10
+Hop Protocol,https://hop.exchange,bridge,non-custodial,none,,,Bonders and AMM per rollup,false,false,,2021,inactive,hop.exchange now serves an unrelated gambling site; app.hop.exchange answers HTTP 400,Rollup-to-rollup bridging,false,,2026-10-10
+Houdini Swap,https://houdiniswap.com,instant-exchange,custodial,risk-based,,,Two-hop exchange routing for privacy,true,true,,2022,active,,Privacy-focused swaps routed through two exchanges,false,,2026-10-10
+Hyperlane Nexus,https://nexus.hyperlane.xyz,bridge,non-custodial,none,,,Hyperlane warp routes,false,true,,,active,,Permissionless warp-route bridging,false,,2026-10-10
+Jumper (LI.FI),https://jumper.xyz,aggregator,non-custodial,none,,,"LI.FI: bridges, DEXes and intent networks",,true,,2023,active,,Largest bridge-and-DEX aggregator front-end,false,,2026-10-10
+LayerSwap,https://layerswap.io,bridge,non-custodial,none,,,Solvers; also exchange deposits and withdrawals,,true,,2022,active,,Moves the same asset between chains and exchanges,false,,2026-10-10
+Ledger Wallet,https://shop.ledger.com/pages/ledger-wallet,wallet,hybrid,none,,,Exchange partners and THORChain,true,true,,2019,active,,Formerly Ledger Live; hardware-wallet swaps through partners,false,,2026-10-10
+LetsExchange,https://letsexchange.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,,active,,No-account instant exchange,false,,2026-10-10
+Matcha,https://matcha.xyz,aggregator,non-custodial,none,,,0x and bridge partners,,true,,2020,active,,0x's swap app with cross-chain swaps,false,,2026-10-10
+Maya Protocol,https://www.mayaprotocol.com,native-dex,non-custodial,none,,,Own validator network and liquidity pools (THORChain fork),true,,,2022,active,,"THORChain fork adding ZEC, DASH, Kujira, Arbitrum",false,,2026-10-10
+Mayan Finance,https://mayan.finance,intent-network,non-custodial,none,,,"Swift auctions on Solana, Wormhole and CCTP",false,true,,2022,active,,Solana-centric cross-chain swaps; integrated in Phantom,false,,2026-10-10
+Meson Finance,https://meson.fi,bridge,non-custodial,none,,,Atomic swaps with LPs,false,,,2022,active,,"Stablecoin and ETH bridging, atomic swap design",false,,2026-10-10
+MetaMask Bridge,https://metamask.io,wallet,non-custodial,none,,,Bridge aggregation (several providers),,true,,2016,active,,Built-in swaps and bridge; 0.875% fee,false,,2026-10-10
+NEAR Intents,https://near-intents.org,intent-network,non-custodial,none,,,"Solver auction, settles on NEAR (1Click API)",true,true,,2024,active,,"Intent-based swaps across 20+ chains incl. BTC, ZEC, XRP",false,,2026-10-10
+OKX Wallet,https://web3.okx.com,wallet,non-custodial,none,,,OKX DEX cross-chain aggregator,,true,,2022,active,,OKX Web3 wallet and cross-chain DEX,false,,2026-10-10
+OpenOcean,https://openocean.finance,aggregator,non-custodial,none,,,DEX aggregation plus bridges,,true,,2021,active,,Same-chain and cross-chain aggregator,false,,2026-10-10
+Orbiter Finance,https://www.orbiter.finance,bridge,non-custodial,none,,,Makers (market makers) on L2s,false,,,2022,active,,Low-cost L2 to L2 transfers,false,,2026-10-10
+Owlto Finance,https://owlto.finance,bridge,non-custodial,none,,,Market-maker liquidity,false,,,2023,active,,Rollup and L2 bridge,false,,2026-10-10
+PancakeSwap,https://pancakeswap.finance,aggregator,non-custodial,none,,,PancakeSwap pools plus bridge partners,false,,,2020,active,,BNB Chain DEX with cross-chain swaps,false,,2026-10-10
+Phantom,https://phantom.com,wallet,non-custodial,none,,,"Relay, Mayan and others",,true,,2021,active,,Solana-first wallet with cross-chain swaps,false,,2026-10-10
+Portal (Wormhole),https://portalbridge.com,bridge,non-custodial,none,,,"Wormhole guardians, Mayan, CCTP",false,true,,2021,active,,Wormhole's bridge front-end,false,,2026-10-10
+Quickex,https://quickex.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,,,,active,,Instant exchange,false,,2026-10-10
+Rabby Wallet,https://rabby.io,wallet,non-custodial,none,,,Bridge aggregators,,,,2022,active,,DeBank's wallet with built-in bridge,false,,2026-10-10
+Rainbow,https://rainbow.me,wallet,non-custodial,none,,,Bridge aggregators,false,,,2020,active,,Ethereum wallet with bridging,false,,2026-10-10
+Rango Exchange,https://rango.exchange,aggregator,hybrid,none,,,"Bridges, DEXes, THORChain, Maya, some instant exchanges",true,true,,2021,active,,Widest chain coverage among aggregators,false,,2026-10-10
+Relay,https://relay.link,intent-network,non-custodial,none,,,Relayers fill from own inventory,,true,,2023,active,,Seconds-fast EVM and Solana swaps and bridging,false,,2026-10-10
+Retrobridge,https://retrobridge.io,bridge,non-custodial,none,,,Own liquidity,,,,2023,active,,Bridge for new L2s and testnets,false,,2026-10-10
+Rhino.fi,https://rhino.fi,bridge,non-custodial,none,,,"Own liquidity, smart deposit addresses",false,true,,2020,active,Homepage now pitches stablecoin payments infrastructure; the bridge app is at app.rhino.fi,"Stablecoin bridging, 30+ chains",false,,2026-10-10
+RocketX,https://www.rocketx.exchange,aggregator,hybrid,none,,,"DEXes, bridges and CEX liquidity",true,true,,2021,active,,Hybrid CEX/DEX aggregator,false,,2026-10-10
+Router Nitro,https://app.routernitro.com,bridge,non-custodial,none,,,"Router chain, forwarders",,,,2023,inactive,app.routernitro.com no longer resolves; routerprotocol.com is still up,Intent-based bridge on Router Protocol,false,,2026-10-10
+Rubic,https://rubic.exchange,aggregator,hybrid,none,,,"Bridges, DEXes and custodial exchange partners",true,true,,2020,active,,Aggregator incl. instant-exchange routes,false,,2026-10-10
+ShapeShift,https://app.shapeshift.com,frontend,non-custodial,none,,,"THORChain, Chainflip, relayers and DEXes",true,true,,2014,active,,DAO-run multi-chain swap app,false,,2026-10-10
+Shieldz Swap,https://swap.shieldz.cash,aggregator,non-custodial,none,0.15,0.15% service fee shown on every quote; 0.05% on swaps of $500k or more (Chainflip routes stay 0.15%),"NEAR Intents, Chainflip, Relay (raced per quote)",true,true,45,2026,active,,"Races three protocols, shows every route, flat fee",true,https://swap.shieldz.cash/terms,2026-10-10
+SideShift.ai,https://sideshift.ai,instant-exchange,custodial,risk-based,,,Own liquidity,true,true,,2018,active,,No-account shifts; geoblocks some countries,false,,2026-10-10
+SimpleSwap,https://simpleswap.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,2018,active,,No-account instant exchange,false,,2026-10-10
+Skip:Go,https://go.skip.build,aggregator,non-custodial,none,,,"IBC, CCTP, Axelar, Hyperlane",false,,,2024,active,,Cosmos-centred cross-chain routing,false,,2026-10-10
+Squid Router,https://www.squidrouter.com,aggregator,non-custodial,none,,,"Axelar, CCTP, Chainflip and others",,,,2022,active,,Cosmos and EVM cross-chain swaps,false,,2026-10-10
+Stargate,https://stargate.finance,bridge,non-custodial,none,,,"LayerZero, unified liquidity pools",false,,,2022,active,,Native-asset bridging for stablecoins and ETH,false,,2026-10-10
+StealthEX,https://stealthex.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,true,,2018,active,,No-account instant exchange,false,,2026-10-10
+Superbridge,https://superbridge.app,bridge,non-custodial,none,,,Native rollup bridges plus fast-bridge partners,false,,,2023,active,,Bridge app for OP Stack and other rollups,false,,2026-10-10
+SushiSwap,https://www.sushi.com,aggregator,non-custodial,none,,,Sushi pools plus bridges (SushiXSwap),false,,,2020,active,,DEX with cross-chain swaps,false,,2026-10-10
+SwapSpace,https://swapspace.co,exchange-aggregator,custodial,risk-based,,,Compares instant exchanges,true,true,,2020,unchecked,Cloudflare challenge did not clear in a headless browser; not confirmed,Instant-exchange aggregator,false,,2026-10-10
+Swapter,https://swapter.io,instant-exchange,custodial,risk-based,,,Exchange partners,true,,,,active,,Instant exchange,false,,2026-10-10
+Swapzone,https://swapzone.io,exchange-aggregator,custodial,risk-based,,,Compares instant exchanges,true,true,,2020,active,,Instant-exchange aggregator,false,,2026-10-10
+Swing,https://swing.xyz,aggregator,non-custodial,none,,,Bridges and DEXes,,,,2022,inactive,swing.xyz no longer resolves in DNS,Cross-chain aggregator and SDK,false,,2026-10-10
+Symbiosis,https://symbiosis.finance,intent-network,non-custodial,none,,,Relayer network and stable pools,true,,,2021,active,,40+ chains incl. native BTC and TON,false,,2026-10-10
+Synapse,https://synapseprotocol.com,bridge,non-custodial,none,,,Own liquidity pools and RFQ (Synapse Intent Network),false,,,2021,active,synapseprotocol.com redirects to hypercall.xyz/synapse; the bridge is still linked there,Cross-chain stable and ETH swaps,false,,2026-10-10
+Teleswap,https://teleswap.xyz,native-dex,non-custodial,none,,,Bitcoin light-client bridge,true,,,,active,Now billed as a Bitcoin DeFi hub; bridge still live,Trust-minimised BTC to EVM swaps,false,,2026-10-10
+THORChain,https://thorchain.org,native-dex,non-custodial,none,,,Own validator network and continuous liquidity pools,true,,,2018,active,,Native BTC/ETH/BNB swaps with no wrapping; used through front-ends,false,,2026-10-10
+THORSwap,https://app.thorswap.finance,frontend,non-custodial,none,,,"THORChain, Maya, Chainflip, aggregators",true,,,2021,active,,Largest THORChain front-end,false,,2026-10-10
+THORWallet,https://www.thorwallet.org,frontend,non-custodial,none,,,THORChain and Maya,true,,,2021,active,,Mobile wallet and DEX on THORChain,false,,2026-10-10
+Trezor Suite,https://trezor.io/trezor-suite,wallet,hybrid,none,,,Exchange partners,true,true,,2020,active,,Hardware-wallet trade through partners,false,,2026-10-10
+Trocador,https://trocador.app,exchange-aggregator,custodial,risk-based,,,"Compares instant exchanges, rates KYC risk",true,true,,2022,active,,Privacy-focused instant-exchange aggregator,false,,2026-10-10
+Trust Wallet,https://trustwallet.com,wallet,hybrid,none,,,"Bridges, THORChain and exchange partners",,true,,2017,active,,Binance-backed multi-chain wallet,false,,2026-10-10
+Uniswap,https://app.uniswap.org,wallet,non-custodial,none,,,"Across (cross-chain), Uniswap pools",false,false,,2018,active,,Cross-chain swaps between EVM chains in the Uniswap app,false,,2026-10-10
+UniversalX,https://universalx.app,aggregator,non-custodial,none,,,Particle Network universal accounts,,true,,2024,active,,Chain-abstracted trading from one balance,false,,2026-10-10
+Unizen,https://unizen.io,aggregator,non-custodial,none,,,DEXes and bridges,,,,2021,inactive,unizen.io serves an invalid TLS certificate,Cross-chain trade aggregator,false,,2026-10-10
+Velora,https://www.velora.xyz,aggregator,non-custodial,none,,,Velora Delta intents and bridges,,,,2021,active,,Formerly ParaSwap; crosschain swaps,false,,2026-10-10
+Vultisig,https://vultisig.com,frontend,non-custodial,none,,,"THORChain, Maya, LI.FI",true,true,,2024,active,,Seedless MPC vault wallet with native swaps,false,,2026-10-10
+Wanchain XFlows,https://bridge.wanchain.org,bridge,non-custodial,none,,,Wanchain storeman nodes,true,,,,active,,"Long-running bridge incl. BTC, XRP, Cardano",false,,2026-10-10
+XY Finance,https://xy.finance,aggregator,non-custodial,none,,,Own liquidity (XY) and third-party bridges,,,,2021,active,,Cross-chain swap aggregator,false,,2026-10-10
+Zerion,https://zerion.io,wallet,non-custodial,none,,,Bridge aggregators,,true,,2016,active,,Portfolio wallet with cross-chain swaps,false,,2026-10-10
