@@ -2,9 +2,11 @@
 
 An open, hand-verified dataset of **81 cross-chain swap apps**: every wallet, aggregator, front-end and instant exchange that swaps a coin on one chain for a coin on another, classified by **who holds your funds while the swap is in flight**, user KYC, the app's own fee, routing, native Bitcoin and Solana support. Every verified fee links to the official page it was read from.
 
-Maintained by [Shieldz](https://shieldz.cash). Current version: **v1.0.1, October 2026**. Sister dataset to the [Crypto Payment Gateways Dataset](https://github.com/ShieldZCash/crypto-payment-gateways-dataset).
+Maintained by [Shieldz](https://shieldz.cash). Current version: **v1.1.0, November 2026**. Sister dataset to the [Crypto Payment Gateways Dataset](https://github.com/ShieldZCash/crypto-payment-gateways-dataset).
 
 Write-up: [81 cross-chain swap apps compared: fees, custody and KYC (October 2026)](https://shieldz.cash/blog/81-cross-chain-swap-apps-compared)
+
+Live companion data: the [Shieldz Swap fee index](https://swap.shieldz.cash/fees) re-quotes popular cross-chain swaps on [Shieldz Swap](https://swap.shieldz.cash) and publishes every route and its all-in cost as JSON and CSV (CC BY 4.0), with its method.
 
 ## Key findings (n=81 active apps, 10 October 2026)
 
@@ -14,6 +16,14 @@ Write-up: [81 cross-chain swap apps compared: fees, custody and KYC (October 202
 - **30% are custodial during the swap** (24 of 81), 15% hybrid. **14 of 35 wallets** hand at least some cross-chain swaps to a custodial exchange.
 - **30 of 81 can hold a flagged swap for KYC**, including all 15 instant exchanges.
 - **11 apps and protocols are no longer working**, including Ctrl Wallet (shut down 19 August 2026) and Hop Protocol, whose domain now serves a gambling site.
+
+## What changed in v1.1.0 (November 2026 re-check)
+
+All 88 apps and 32 protocols were fetched again on 18 Nov 2026 (plain HTTP plus a real browser for pages behind bot checks), and every stated fee was compared with its source. All 24 fee-verified rows still match; the key findings below are unchanged.
+
+- **ChangeHero** now lists 0.7-0.9% on fixed-rate swaps (best-rate unchanged at 0.5%).
+- Help-center pages moved for **MetaMask**, **Phantom**, **Guarda** and **Quickex**; sources updated (fees unchanged: 0.875%, 0.85%, ~0.5%, 0.5%/1%).
+- **Unizen** now times out; **XY Finance**'s fee post returns a Cloudflare error. No app shut down this month beyond the 7 already marked inactive.
 
 ## Apps, not protocols
 

@@ -1,11 +1,11 @@
 {
   "dataset": "Cross-Chain Swaps 2026",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "Shieldz",
   "publisher_url": "https://shieldz.cash",
   "canonical": "https://shieldz.cash/blog/81-cross-chain-swap-apps-compared",
   "published": "2026-10-10",
-  "updated": "2026-10-10",
+  "updated": "2026-11-18",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "methodology": "Every user-facing app that swaps an asset on one chain for an asset on another: aggregators, independent front-ends, wallets with built-in cross-chain swaps and instant exchanges. The protocols those apps route through (THORChain, Chainflip, NEAR Intents, Relay, Across and others) are listed separately under `protocols` for reference and are not part of the comparison, since most apps sit on top of them; a protocol's own first-party front-end counts as the protocol. Classified by category, custody model during the swap, user KYC, the app's own fee, routing, native Bitcoin and Solana support and chain coverage. Liveness checked by HTTP and, behind bot protection, in a real browser. Fees and coverage come only from official pages and docs (verified=true, with source_url); null means not yet checked.",
@@ -92,7 +92,7 @@
       "notable": "Long-running instant exchange",
       "verified": false,
       "source_url": "https://www.alfa.cash/legal/terms-of-use",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "ASGARDEX",
@@ -113,7 +113,7 @@
       "notable": "Open-source desktop wallet for THORChain",
       "verified": true,
       "source_url": "https://github.com/asgardex/asgardex-desktop",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Atomic Wallet",
@@ -134,7 +134,7 @@
       "notable": "Desktop and mobile wallet with exchange partners",
       "verified": false,
       "source_url": "https://support.atomicwallet.io/article/90-the-process-of-exchange",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Backpack",
@@ -155,7 +155,7 @@
       "notable": "Solana-first wallet from the Backpack exchange team",
       "verified": false,
       "source_url": "https://learn.backpack.exchange/blog/backpack-wallet-zero-fees-swaps-bridges",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Base App",
@@ -176,7 +176,7 @@
       "notable": "Coinbase self-custody wallet, formerly Coinbase Wallet",
       "verified": true,
       "source_url": "https://help.coinbase.com/en/wallet/getting-started/dex-swap",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Binance Wallet",
@@ -197,7 +197,7 @@
       "notable": "Binance self-custody (MPC) wallet inside the Binance app",
       "verified": false,
       "source_url": "https://www.binance.com/en/support/faq/what-is-binance-wallet-swap-7ebe19e8ff884cc09a9dbb064aff131f",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "BitBox",
@@ -218,7 +218,7 @@
       "notable": "Swiss hardware wallet; swaps confirmed on the device (BitBoxApp 05.2026)",
       "verified": true,
       "source_url": "https://support.bitbox.swiss/en_US/swap/swapkit-crypto-swap-bitboxapp",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Bitcoin.com Wallet",
@@ -239,7 +239,7 @@
       "notable": "Self-custody wallet from Bitcoin.com",
       "verified": true,
       "source_url": "https://support.bitcoin.com/en/articles/9172611-how-to-swap-across-chains-on-verse-dex",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Bitget Wallet",
@@ -260,7 +260,7 @@
       "notable": "Formerly BitKeep; cross-chain swaps",
       "verified": false,
       "source_url": "https://web3.bitget.com/en/docs/swap-order",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Brave Wallet",
@@ -281,7 +281,7 @@
       "notable": "Browser-native wallet; NEAR Intents adds BTC, ZEC, Cardano",
       "verified": false,
       "source_url": "https://brave.com/blog/cross-chain-swaps/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Bungee",
@@ -302,7 +302,7 @@
       "notable": "Aggregator by Socket; auction mode",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "CacaoSwap",
@@ -323,7 +323,7 @@
       "notable": "Maya Protocol front-end",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Cake Wallet",
@@ -344,7 +344,7 @@
       "notable": "Monero and Bitcoin wallet; Tor-only swaps; shielded ZEC via NEAR Intents",
       "verified": false,
       "source_url": "https://docs.cakewallet.com/support/swap",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Changee",
@@ -365,7 +365,7 @@
       "notable": "Instant exchange",
       "verified": false,
       "source_url": "https://changee.com/about-us",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "ChangeHero",
@@ -375,7 +375,7 @@
       "kyc": "risk-based",
       "fee_type": "stated",
       "fee_pct": 0.5,
-      "fee_note": "Up to 0.5% on best-rate swaps, up to 0.7% fixed-rate, spread and network fees on top (a ChangeHero test came to 1.3% all-in)",
+      "fee_note": "0.5% on best-rate swaps, 0.7-0.9% fixed-rate, spread and network fees on top (a ChangeHero test came to 1.3% all-in)",
       "routes_via": "Exchange partners",
       "native_btc": true,
       "solana": true,
@@ -386,7 +386,7 @@
       "notable": "No-account instant exchange",
       "verified": true,
       "source_url": "https://changehero.io/blog/crypto-exchange-with-lowest-fees/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Changelly",
@@ -407,7 +407,7 @@
       "notable": "Long-running instant exchange",
       "verified": true,
       "source_url": "https://changelly.com/faq/changelly/fees/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "ChangeNOW",
@@ -428,7 +428,7 @@
       "notable": "No-account instant exchange, 1,000+ coins",
       "verified": false,
       "source_url": "https://changenow.io/faq/what-fees-are-there-during-an-exchange",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Coin98",
@@ -449,7 +449,7 @@
       "notable": "Super Wallet with a token-limited cross-chain bridge",
       "verified": true,
       "source_url": "https://docs.coin98.com/products/coin98-super-wallet/mobile/swapx/faqs/faqs",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Coinomi",
@@ -470,7 +470,7 @@
       "notable": "Long-running multi-coin wallet with built-in exchange partners",
       "verified": false,
       "source_url": "https://support.coinomi.com/support/solutions/articles/29000014182-exchanging",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "CoW Swap",
@@ -491,7 +491,7 @@
       "notable": "Intent-based DEX; cross-chain swaps via bridge partners",
       "verified": false,
       "source_url": "https://docs.cow.fi/cow-protocol/tutorials/cow-swap/swap-and-bridge",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Ctrl Wallet",
@@ -533,7 +533,7 @@
       "notable": "Open-source privacy aggregator; runs without JavaScript",
       "verified": false,
       "source_url": "https://cyphergoat.com/blog/thorchain",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Defispot",
@@ -575,7 +575,7 @@
       "notable": "Batch and cross-chain swap aggregator",
       "verified": false,
       "source_url": "https://docs.dzap.io/products/fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Edge Wallet",
@@ -596,7 +596,7 @@
       "notable": "Long-running self-custody wallet with THORChain streaming swaps",
       "verified": false,
       "source_url": "https://edge.app/blog/company-news/edge-rolls-out-thorchain-savers-and-dex-aggregator/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "El Dorito",
@@ -659,7 +659,7 @@
       "notable": "Desktop and mobile wallet with in-app exchange",
       "verified": false,
       "source_url": "https://www.exodus.com/support/en/articles/8611278-does-exodus-have-transaction-fees-to-send-or-receive",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Exolix",
@@ -680,7 +680,7 @@
       "notable": "No-account instant exchange",
       "verified": false,
       "source_url": "https://exolix.com/terms",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "FixedFloat",
@@ -701,7 +701,7 @@
       "notable": "Fixed and floating-rate exchange",
       "verified": true,
       "source_url": "https://ff.io/en/faq",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Gem Wallet",
@@ -722,7 +722,7 @@
       "notable": "Open-source wallet aggregating native cross-chain swaps",
       "verified": false,
       "source_url": "https://gemwallet.com/swap/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Godex",
@@ -743,7 +743,7 @@
       "notable": "Fixed-rate instant exchange",
       "verified": false,
       "source_url": "https://godex.io/blog/godex-vs-changenow-which-is-actually-no-kyc-in-2026",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Guarda",
@@ -763,8 +763,8 @@
       "status_note": "",
       "notable": "Multi-chain wallet with exchange partners",
       "verified": true,
-      "source_url": "https://guarda.com/support/getting-started/what-fees-am-i-paying-for/",
-      "checked": "2026-10-10"
+      "source_url": "https://support.guarda.com/article/96-what-fees-am-i-paying-for/",
+      "checked": "2026-11-18"
     },
     {
       "name": "Houdini Swap",
@@ -785,7 +785,7 @@
       "notable": "Privacy-focused swaps routed through two exchanges",
       "verified": false,
       "source_url": "https://docs.houdiniswap.com/houdini-swap/whitepaper/fee-structure",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "imToken",
@@ -806,7 +806,7 @@
       "notable": "Long-running Ethereum and Tron wallet",
       "verified": false,
       "source_url": "https://support.token.im/hc/en-us/articles/36055702491673-How-to-use-Bridgers-in-imToken",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Jumper (LI.FI)",
@@ -827,7 +827,7 @@
       "notable": "Largest bridge-and-DEX aggregator front-end",
       "verified": true,
       "source_url": "https://docs.li.fi/faqs/fees-monetization",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "KeepKey",
@@ -848,7 +848,7 @@
       "notable": "Open-source hardware wallet with built-in swaps in KeepKey Desktop",
       "verified": false,
       "source_url": "https://keepkey.com/product",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Keplr",
@@ -869,7 +869,7 @@
       "notable": "Cosmos-first wallet with EVM, Bitcoin and Starknet support",
       "verified": false,
       "source_url": "https://terms-of-use.keplr.app/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "KyberSwap",
@@ -889,8 +889,8 @@
       "status_note": "",
       "notable": "DEX aggregator with tiered cross-chain fees; same-chain swaps free",
       "verified": true,
-      "source_url": "https://docs.kyberswap.com/kyberswap-solutions/fee-schedule",
-      "checked": "2026-10-10"
+      "source_url": "https://docs.kyberswap.com/getting-started/fee-schedule",
+      "checked": "2026-11-18"
     },
     {
       "name": "Leap Wallet",
@@ -932,7 +932,7 @@
       "notable": "Formerly Ledger Live; hardware-wallet swaps through partners",
       "verified": false,
       "source_url": "https://developers.ledger.com/docs/ledger-live/exchange/swap/flow/quote",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "LeoDex",
@@ -953,7 +953,7 @@
       "notable": "Compares every route across 19 protocols; shielded ZEC and confidential NEAR Intents swaps",
       "verified": true,
       "source_url": "https://leodex.io",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "LetsExchange",
@@ -974,7 +974,7 @@
       "notable": "No-account instant exchange",
       "verified": false,
       "source_url": "https://letsexchange.io/exchange/usdt-to-trx",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Magic Eden Wallet",
@@ -995,7 +995,7 @@
       "notable": "NFT marketplace wallet; the highest published cross-chain fee in this list",
       "verified": true,
       "source_url": "https://help.magiceden.io/en/articles/9673665-how-to-swap-tokens-in-the-magic-eden-app",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Matcha",
@@ -1016,7 +1016,7 @@
       "notable": "0x's swap app with cross-chain swaps",
       "verified": true,
       "source_url": "https://help.matcha.xyz/articles/1222339831-are-there-any-fees-to-make-a-trade",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "MetaMask",
@@ -1036,8 +1036,8 @@
       "status_note": "",
       "notable": "Built-in swaps and bridge; 0.875% fee",
       "verified": true,
-      "source_url": "https://support.metamask.io/manage-crypto/move-crypto/bridge/how-are-bridge-fees-calculated/",
-      "checked": "2026-10-10"
+      "source_url": "https://support.metamask.io/trade/swap/user-guide-swaps/",
+      "checked": "2026-11-18"
     },
     {
       "name": "OKX Wallet",
@@ -1058,7 +1058,7 @@
       "notable": "OKX Web3 wallet and cross-chain DEX",
       "verified": false,
       "source_url": "https://web3.okx.com/dex-fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "OpenOcean",
@@ -1079,7 +1079,7 @@
       "notable": "Same-chain and cross-chain aggregator",
       "verified": false,
       "source_url": "https://docs.openocean.finance/products/cross-chain-swap",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "PancakeSwap",
@@ -1100,7 +1100,7 @@
       "notable": "BNB Chain DEX with cross-chain swaps",
       "verified": false,
       "source_url": "https://docs.pancakeswap.finance/trade/crosschain-swaps",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Phantom",
@@ -1120,8 +1120,8 @@
       "status_note": "",
       "notable": "Solana-first wallet with cross-chain swaps",
       "verified": true,
-      "source_url": "https://help.phantom.com/hc/en-us/articles/27085326202515-Swap-settings-in-Phantom",
-      "checked": "2026-10-10"
+      "source_url": "https://help.phantom.com/articles/understanding-cross-chain-swaps-in-phantom-51384804802195",
+      "checked": "2026-11-18"
     },
     {
       "name": "Quickex",
@@ -1141,8 +1141,8 @@
       "status_note": "",
       "notable": "Instant exchange",
       "verified": true,
-      "source_url": "https://quickex.io/exchange-btc-runerune",
-      "checked": "2026-10-10"
+      "source_url": "https://quickex.io/docs/terms-of-use",
+      "checked": "2026-11-18"
     },
     {
       "name": "Rabby Wallet",
@@ -1163,7 +1163,7 @@
       "notable": "DeBank's wallet with built-in bridge",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Rainbow",
@@ -1184,7 +1184,7 @@
       "notable": "Ethereum wallet with bridging",
       "verified": false,
       "source_url": "https://rainbow.me/support/app/bridge-and-swap-tokens",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Rango Exchange",
@@ -1205,7 +1205,7 @@
       "notable": "Widest chain coverage among aggregators",
       "verified": false,
       "source_url": "https://rango.exchange/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "RocketX",
@@ -1226,7 +1226,7 @@
       "notable": "Hybrid CEX/DEX aggregator",
       "verified": true,
       "source_url": "https://www.rocketx.exchange/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Rubic",
@@ -1247,7 +1247,7 @@
       "notable": "Aggregator incl. instant-exchange routes",
       "verified": false,
       "source_url": "https://docs.rubic.finance/rubic-api/monetization-and-fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "SafePal",
@@ -1268,7 +1268,7 @@
       "notable": "Hardware and software wallet with in-app bridge",
       "verified": false,
       "source_url": "https://www.safepal.com/en/blog/usdc-campaign-swap-assets-into-usdc-with-zero-fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "ShapeShift",
@@ -1289,7 +1289,7 @@
       "notable": "DAO-run multi-chain swap app",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Shieldz Swap",
@@ -1310,7 +1310,7 @@
       "notable": "Races NEAR Intents, Chainflip and Relay per quote, shows every route and lets you pick; fee on every quote",
       "verified": true,
       "source_url": "https://swap.shieldz.cash/terms",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "SideShift.ai",
@@ -1331,7 +1331,7 @@
       "notable": "No-account shifts; geoblocks some countries",
       "verified": false,
       "source_url": "https://docs.sideshift.ai/api-intro/shift/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "SimpleSwap",
@@ -1352,7 +1352,7 @@
       "notable": "No-account instant exchange",
       "verified": false,
       "source_url": "https://simpleswap.io/terms-of-service",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Skip:Go",
@@ -1373,7 +1373,7 @@
       "notable": "Cosmos-centred cross-chain routing",
       "verified": false,
       "source_url": "https://docs.skip.build/go/general/fee-info",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Squid Router",
@@ -1394,7 +1394,7 @@
       "notable": "Cosmos and EVM cross-chain swaps",
       "verified": false,
       "source_url": "https://www.squidrouter.com/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Stack Wallet",
@@ -1415,7 +1415,7 @@
       "notable": "Open-source privacy wallet (Monero, Firo, Epic)",
       "verified": false,
       "source_url": "https://stackwallet.com/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "StealthEX",
@@ -1436,7 +1436,7 @@
       "notable": "No-account instant exchange",
       "verified": false,
       "source_url": "https://stealthex.io/terms/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Superbridge",
@@ -1457,7 +1457,7 @@
       "notable": "Bridge app for OP Stack and other rollups",
       "verified": false,
       "source_url": "https://help.superbridge.app/en/articles/9751872-across-bridge-fees-charges",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "SushiSwap",
@@ -1478,7 +1478,7 @@
       "notable": "DEX with cross-chain swaps",
       "verified": true,
       "source_url": "https://www.sushi.com/cross-chain-swap",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "SwapSpace",
@@ -1499,7 +1499,7 @@
       "notable": "Instant-exchange aggregator",
       "verified": false,
       "source_url": "https://swapspace.co/about",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Swapter",
@@ -1520,7 +1520,7 @@
       "notable": "Instant exchange",
       "verified": false,
       "source_url": "https://swapter.io/currency-pair/BTC-ETH",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Swapzone",
@@ -1541,7 +1541,7 @@
       "notable": "Instant-exchange aggregator",
       "verified": false,
       "source_url": "https://swapzone.io/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Swing",
@@ -1583,7 +1583,7 @@
       "notable": "Card-based hardware wallet with the Tangem Express swap",
       "verified": false,
       "source_url": "https://tangem.com/en/learning-hub/post/best-cross-chain-wallets-2026/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "THORSwap",
@@ -1604,7 +1604,7 @@
       "notable": "Largest THORChain front-end",
       "verified": true,
       "source_url": "https://docs.thorswap.finance/thorswap/thorswap/fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "THORWallet",
@@ -1625,7 +1625,7 @@
       "notable": "Mobile wallet and DEX on THORChain",
       "verified": true,
       "source_url": "https://www.thorwallet.org/titn",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "TokenPocket",
@@ -1646,7 +1646,7 @@
       "notable": "Multi-chain wallet with the Transit Swap cross-chain aggregator",
       "verified": false,
       "source_url": "https://help.tokenpocket.pro/en/wallet-operation/how-to-trade-on-dex/transit-swap",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Trezor Suite",
@@ -1667,7 +1667,7 @@
       "notable": "Hardware-wallet trade through partners",
       "verified": false,
       "source_url": "https://trezor.io/guides/sending-receiving-staking-funds/trading-crypto-in-trezor-suite/trade-crypto-in-trezor-suite",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Trocador",
@@ -1688,7 +1688,7 @@
       "notable": "Privacy-focused instant-exchange aggregator",
       "verified": false,
       "source_url": "https://www.trocador.app/en/about/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Trust Wallet",
@@ -1709,7 +1709,7 @@
       "notable": "Binance-backed multi-chain wallet",
       "verified": false,
       "source_url": "https://trustwallet.com/blog/company/best-mobile-crypto-wallets-2026",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Uniswap",
@@ -1730,7 +1730,7 @@
       "notable": "Cross-chain swaps between EVM chains in the Uniswap app",
       "verified": false,
       "source_url": "https://support.uniswap.org/hc/en-us/articles/20131678274957-What-are-Uniswap-Labs-fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "UniversalX",
@@ -1751,7 +1751,7 @@
       "notable": "Chain-abstracted trading from one balance",
       "verified": false,
       "source_url": "https://blog.particle.network/2025-review/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Unizen",
@@ -1768,7 +1768,7 @@
       "chains": null,
       "founded": 2021,
       "status": "inactive",
-      "status_note": "unizen.io serves an invalid TLS certificate",
+      "status_note": "unizen.io served an invalid TLS certificate (Oct 2026) and timed out (Nov 2026)",
       "notable": "Cross-chain trade aggregator",
       "verified": false,
       "source_url": null,
@@ -1793,7 +1793,7 @@
       "notable": "Open-source privacy wallet with THORChain swaps",
       "verified": false,
       "source_url": "https://unstoppable.money/faq",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Velora",
@@ -1814,7 +1814,7 @@
       "notable": "Formerly ParaSwap; crosschain swaps",
       "verified": false,
       "source_url": "https://www.velora.xyz/docs/api-reference/delta/quote",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Vultisig",
@@ -1835,7 +1835,7 @@
       "notable": "Seedless MPC vault wallet with native swaps",
       "verified": true,
       "source_url": "https://vultisig.com/vult",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Xverse",
@@ -1856,7 +1856,7 @@
       "notable": "Bitcoin-first wallet; cross-chain swaps into BTC run through Changelly",
       "verified": false,
       "source_url": "https://support.xverse.app/hc/en-us/articles/32575847953165-How-to-Swap-from-ETH-SOL-to-BTC-in-Xverse",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "XY Finance",
@@ -1866,7 +1866,7 @@
       "kyc": "none",
       "fee_type": "stated",
       "fee_pct": 0.035,
-      "fee_note": "0.035% XY fee charged on the target chain (min $0.19-$15, max $1,000), per a 2023 fee post; no current schedule",
+      "fee_note": "0.035% XY fee charged on the target chain (min $0.19-$15, max $1,000), per a 2023 fee post; no current schedule; the fee post returned a Cloudflare 522 in Nov 2026",
       "routes_via": "Own liquidity (XY) and third-party bridges",
       "native_btc": false,
       "solana": false,
@@ -1877,7 +1877,7 @@
       "notable": "Cross-chain swap aggregator",
       "verified": false,
       "source_url": "https://blog.xy.finance/feestructure/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Zengo",
@@ -1898,7 +1898,7 @@
       "notable": "Keyless MPC wallet",
       "verified": false,
       "source_url": "https://help.zengo.com/en/articles/4082376-how-does-swap-work",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Zerion",
@@ -1919,7 +1919,7 @@
       "notable": "Portfolio wallet with cross-chain swaps",
       "verified": true,
       "source_url": "https://help.zerion.io/en/articles/4813752-understanding-fees-on-zerion",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     }
   ],
   "protocols": [
@@ -1942,7 +1942,7 @@
       "notable": "1inch's cross-chain swaps via resolvers",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Across Protocol",
@@ -1963,7 +1963,7 @@
       "notable": "Fast intent-based bridging; powers Uniswap's cross-chain swaps",
       "verified": false,
       "source_url": "https://across.to/blog/How-Does-Across-Protocol-BridgeForLess",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Allbridge",
@@ -1984,7 +1984,7 @@
       "notable": "Stablecoin swaps incl. Solana, Tron, Stellar, Sui",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Bridgers",
@@ -2005,7 +2005,7 @@
       "notable": "Cross-chain swap bridge",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "cBridge (Celer)",
@@ -2026,7 +2026,7 @@
       "notable": "Long-running multi-chain bridge",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Chainflip",
@@ -2047,7 +2047,7 @@
       "notable": "Native BTC, ETH, SOL, DOT swaps; boost for faster BTC deposits",
       "verified": true,
       "source_url": "https://docs.chainflip.io/protocol/swapping-basics",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Chainge Finance",
@@ -2068,7 +2068,7 @@
       "notable": "Cross-chain DEX with own settlement layer",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "deBridge",
@@ -2089,7 +2089,7 @@
       "notable": "Cross-chain limit orders and swaps, EVM and Solana",
       "verified": true,
       "source_url": "https://docs.debridge.com/dln-details/overview/fee-structure",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Everclear",
@@ -2110,7 +2110,7 @@
       "notable": "Netting layer behind other bridges",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Garden Finance",
@@ -2131,7 +2131,7 @@
       "notable": "Bitcoin-first atomic-swap bridge to EVM chains",
       "verified": true,
       "source_url": "https://garden.finance/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Gas.zip",
@@ -2152,7 +2152,7 @@
       "notable": "Native gas refuel across 300+ chains",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Harbor",
@@ -2173,7 +2173,7 @@
       "notable": "Native BTC, LTC, ZEC, EVM and Solana swaps on a central limit order book",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Hop Protocol",
@@ -2194,7 +2194,7 @@
       "notable": "Rollup-to-rollup bridging",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Hyperlane Nexus",
@@ -2215,7 +2215,7 @@
       "notable": "Permissionless warp-route bridging",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "LayerSwap",
@@ -2236,7 +2236,7 @@
       "notable": "Moves the same asset between chains and exchanges",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Maya Protocol",
@@ -2257,7 +2257,7 @@
       "notable": "THORChain fork adding ZEC, DASH, Kujira, Arbitrum",
       "verified": true,
       "source_url": "https://docs.mayaprotocol.com/mayachain-dev-docs/concepts/fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Mayan Finance",
@@ -2278,7 +2278,7 @@
       "notable": "Solana-centric cross-chain swaps; integrated in Phantom",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Meson Finance",
@@ -2299,7 +2299,7 @@
       "notable": "Stablecoin and ETH bridging, atomic swap design",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "NEAR Intents",
@@ -2320,7 +2320,7 @@
       "notable": "Intent-based swaps across 20+ chains incl. BTC, ZEC, XRP",
       "verified": true,
       "source_url": "https://docs.near-intents.org/resources/fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Orbiter Finance",
@@ -2341,7 +2341,7 @@
       "notable": "Low-cost L2 to L2 transfers",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Owlto Finance",
@@ -2362,7 +2362,7 @@
       "notable": "Rollup and L2 bridge",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Portal (Wormhole)",
@@ -2383,7 +2383,7 @@
       "notable": "Wormhole's bridge front-end",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Relay",
@@ -2404,7 +2404,7 @@
       "notable": "Seconds-fast EVM and Solana swaps and bridging",
       "verified": true,
       "source_url": "https://docs.relay.link/references/api/api_core_concepts/fees",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Retrobridge",
@@ -2425,7 +2425,7 @@
       "notable": "Bridge for new L2s and testnets",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Rhino.fi",
@@ -2446,7 +2446,7 @@
       "notable": "Stablecoin bridging, 30+ chains",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Router Nitro",
@@ -2467,7 +2467,7 @@
       "notable": "Intent-based bridge on Router Protocol",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Stargate",
@@ -2488,7 +2488,7 @@
       "notable": "Native-asset bridging for stablecoins and ETH",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Symbiosis",
@@ -2509,7 +2509,7 @@
       "notable": "40+ chains incl. native BTC and TON",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Synapse",
@@ -2530,7 +2530,7 @@
       "notable": "Cross-chain stable and ETH swaps",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Teleswap",
@@ -2551,7 +2551,7 @@
       "notable": "Trust-minimised BTC to EVM swaps",
       "verified": false,
       "source_url": "https://academy.teleswap.xyz/bridge-bitcoin-to-ethereum-cbbtc-guide/",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "THORChain",
@@ -2572,7 +2572,7 @@
       "notable": "Native BTC/ETH/BNB swaps with no wrapping; used through front-ends",
       "verified": true,
       "source_url": "https://dev.thorchain.org/concepts/fees.html",
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     },
     {
       "name": "Wanchain XFlows",
@@ -2593,7 +2593,7 @@
       "notable": "Long-running bridge incl. BTC, XRP, Cardano",
       "verified": false,
       "source_url": null,
-      "checked": "2026-10-10"
+      "checked": "2026-11-18"
     }
   ]
 }

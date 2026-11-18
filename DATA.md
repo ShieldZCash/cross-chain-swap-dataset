@@ -1,6 +1,6 @@
 # Cross-Chain Swaps 2026: full table
 
-81 active apps (7 inactive, 0 unchecked), v1.0.1, updated 2026-10-10. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash).
+81 active apps (7 inactive, 0 unchecked), v1.1.0, updated 2026-11-18. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution: [Shieldz](https://shieldz.cash).
 
 Of the active apps, **56% are non-custodial**, 30% custodial and 12 hybrid. Verified so far (fee and coverage confirmed on an official page): 24 of 88. `?` means no rate was found, `not certain` means the app claims no fee of its own so the cost is set by the route, and an asterisk marks an unverified figure.
 
@@ -155,7 +155,7 @@ Not part of the comparison. Most apps above route through these; listed so `Rout
 | Exch | inactive | exch.cx times out; the service announced its shutdown in 2025 |
 | Leap Wallet | inactive | leapwallet.io returns Framer Site Not Found; Gem Wallet published a migration guide for its shutdown |
 | Swing | inactive | swing.xyz no longer resolves in DNS |
-| Unizen | inactive | unizen.io serves an invalid TLS certificate |
+| Unizen | inactive | unizen.io served an invalid TLS certificate (Oct 2026) and timed out (Nov 2026) |
 | Chainge Finance (protocol) | inactive | chainge.finance returns 404 Not Found |
 | Everclear (protocol) | inactive | everclear.org fails the TLS handshake; infrastructure rather than a consumer app |
 | Hop Protocol (protocol) | inactive | hop.exchange now serves an unrelated gambling site; app.hop.exchange answers HTTP 400 |
