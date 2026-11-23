@@ -1,0 +1,41 @@
+{
+  "title": "Cross-Chain Swap Apps Dataset (v1.1.0, 81 apps)",
+  "upload_type": "dataset",
+  "version": "1.1.0",
+  "publication_date": "2026-11-18",
+  "description": "<p>An open, hand-verified dataset of 81 cross-chain swap apps (wallets, aggregators, front-ends and instant exchanges) classified by custody during the swap, user KYC, the app's own fee, routing and native Bitcoin and Solana support, with the 32 protocols they route through listed separately. Every verified fee links to the official page it was read from. Updated monthly. Headline finding: 70% state no fee that can be checked in advance on a current official page.</p><p>Write-up: <a href=\"https://shieldz.cash/blog/81-cross-chain-swap-apps-compared?utm_source=zenodo\">https://shieldz.cash/blog/81-cross-chain-swap-apps-compared</a>. Live companion fee index: <a href=\"https://swap.shieldz.cash/fees?utm_source=zenodo\">https://swap.shieldz.cash/fees</a>.</p>",
+  "creators": [
+    {
+      "name": "Yanbollu, Deniz",
+      "affiliation": "Shieldz"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "cross-chain swap",
+    "crypto swap",
+    "dex aggregator",
+    "bridge",
+    "custody",
+    "fees",
+    "dataset"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://shieldz.cash/blog/81-cross-chain-swap-apps-compared",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://github.com/ShieldZCash/cross-chain-swap-dataset",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/ShieldZCash/crypto-payment-gateways-dataset",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ]
+}
